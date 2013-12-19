@@ -42,6 +42,7 @@
         "widgets/form/FontComboBox.js",
         "widgets/form/GoogleGeocoderComboBox.js",
         "widgets/form/ViewerField.js",
+        "widgets/form/ExtendedDateField.js",
         "widgets/grid/CapabilitiesGrid.js",
         "widgets/grid/FeatureGrid.js",
         "widgets/GoogleEarthPanel.js",
@@ -53,7 +54,6 @@
         "widgets/form/PlaybackModeComboBox.js",
         "widgets/PlaybackOptionsPanel.js",
         "widgets/slider/ClassBreakSlider.js",
-        "widgets/tips/RangeSliderTip.js",
         "widgets/TimelinePanel.js",
         "widgets/form/CSWFilterField.js",
         "widgets/CatalogueSearchPanel.js",
@@ -70,6 +70,7 @@
         "plugins/CatalogueSource.js",
         "plugins/CSWCatalogueSource.js",
         "plugins/GeoNodeCatalogueSource.js",
+        "plugins/TMSSource.js",
         "plugins/StyleWriter.js",
         "plugins/GeoServerStyleWriter.js",
         "plugins/Tool.js",
@@ -111,6 +112,7 @@
         "plugins/Print.js",
         "plugins/LoadingIndicator.js",
         "plugins/Playback.js",
+        "ColorManager.js",
         "locale/es.js",
         "locale/ca.js"
     );

@@ -1,4 +1,4 @@
-/* Copyright (c) 2006-2012 by OpenLayers Contributors (see authors.txt for 
+/* Copyright (c) 2006-2013 by OpenLayers Contributors (see authors.txt for
  * full list of contributors). Published under the 2-clause BSD license.
  * See license.txt in the OpenLayers distribution or repository for the
  * full text of the license. */
@@ -144,10 +144,9 @@
                 "OpenLayers/Console.js",
                 "OpenLayers/Tween.js",
                 "OpenLayers/Kinetic.js",
-                "Rico/Corner.js",
-                "Rico/Color.js",
                 "OpenLayers/Events.js",
                 "OpenLayers/Events/buttonclick.js",
+                "OpenLayers/Events/featureclick.js",
                 "OpenLayers/Request.js",
                 "OpenLayers/Request/XMLHttpRequest.js",
                 "OpenLayers/Projection.js",
@@ -191,7 +190,6 @@
                 "OpenLayers/Layer/Zoomify.js",
                 "OpenLayers/Layer/ArcGISCache.js",
                 "OpenLayers/Popup/Anchored.js",
-                "OpenLayers/Popup/AnchoredBubble.js",
                 "OpenLayers/Popup/Framed.js",
                 "OpenLayers/Popup/FramedCloud.js",
                 "OpenLayers/Feature.js",
@@ -246,6 +244,7 @@
                 "OpenLayers/Control/UTFGrid.js",
                 "OpenLayers/Control/SLDSelect.js",
                 "OpenLayers/Control/Zoom.js",
+                "OpenLayers/Control/TextButtonPanel.js",
                 "OpenLayers/Geometry.js",
                 "OpenLayers/Geometry/Collection.js",
                 "OpenLayers/Geometry/Point.js",
@@ -306,6 +305,7 @@
                 "OpenLayers/Format/GML/v2.js",
                 "OpenLayers/Format/GML/v3.js",
                 "OpenLayers/Format/Atom.js",
+                "OpenLayers/Format/EncodedPolyline.js",
                 "OpenLayers/Format/KML.js",
                 "OpenLayers/Format/GeoRSS.js",
                 "OpenLayers/Format/WFS.js",
@@ -313,6 +313,10 @@
                 "OpenLayers/Format/OWSCommon/v1.js",
                 "OpenLayers/Format/OWSCommon/v1_0_0.js",
                 "OpenLayers/Format/OWSCommon/v1_1_0.js",
+                "OpenLayers/Format/WCSCapabilities.js",
+                "OpenLayers/Format/WCSCapabilities/v1.js",
+                "OpenLayers/Format/WCSCapabilities/v1_0_0.js",
+                "OpenLayers/Format/WCSCapabilities/v1_1_0.js",
                 "OpenLayers/Format/WFSCapabilities.js",
                 "OpenLayers/Format/WFSCapabilities/v1.js",
                 "OpenLayers/Format/WFSCapabilities/v1_0_0.js",
@@ -377,6 +381,7 @@
                 "OpenLayers/Format/XLS/v1.js",
                 "OpenLayers/Format/XLS/v1_1_0.js",
                 "OpenLayers/Format/OGCExceptionReport.js",
+                "OpenLayers/Format/TMSCapabilities.js",
                 "OpenLayers/Control/GetFeature.js",
                 "OpenLayers/Control/NavToolbar.js",
                 "OpenLayers/Control/PanPanel.js",
@@ -395,6 +400,7 @@
                 "OpenLayers/Lang.js",
                 "OpenLayers/Lang/en.js",
                 "OpenLayers/Spherical.js",
+                "OpenLayers/TileManager.js",
                 "OpenLayers/WPSClient.js",
                 "OpenLayers/WPSProcess.js"
             ]; // etc.

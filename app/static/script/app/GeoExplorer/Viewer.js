@@ -85,7 +85,7 @@ GeoExplorer.Viewer = Ext.extend(GeoExplorer, {
         });
         
         var tb = new Ext.Container({
-        	style: "background-color: #00A5C7; padding : 5px;",
+        	style: "background-color: #E17000; padding : 5px;",
         	height: 50,
         	html:	"<p style='margin-left: 10px;'><font size='+1' face='ARIAL' color='White' style='font-weight:bold;'>" + app.about.title  + "</font><br>" + 
         			"<font size='-1' face='ARIAL' color='White'>" + app.about['abstract']  + "</font></p>"

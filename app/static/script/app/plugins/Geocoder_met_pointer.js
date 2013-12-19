@@ -90,20 +90,19 @@ gxp.plugins.GeocoderMetPointer = Ext.extend(gxp.plugins.Tool, {
     menuText: "Zoek adres",
     
     outputConfig: {
-		url: "/geoserver/wfs",
-		//url: "http://geo.zaanstad.nl/geoserver/wfs",
-		featureType: "bag_adressen_alles",
-		featurePrefix: "geo",
+		url: "http://gng-ap713/geoserver/wfs",
+		featureType: "atlas_geocoder",
+		featurePrefix: "nieuwegein",
 		srsName: "EPSG:28992",
         maxFeatures: 70,
         outputFormat: "JSON",
-		fieldName: "adres",
-		geometryName: "geom",
+		fieldName: "ADRES",
+		geometryName: "GEOM",
 		emptyText: "Type een adres ...",
 		listEmptyText: "- niets gevonden -"
 	},
 	
-	zoom: 8,
+	zoom: 14,
     
 	/** private: method[constructor]
 	 */

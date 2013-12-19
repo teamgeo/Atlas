@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="zaanatlas" default="dist" basedir=".">
+<project name="atlas" default="dist" basedir=".">
 
     <description>
-        ZaanAtlas Build File
+        Atlas Build File
     </description>
 
     <property name="build" location="build"/>
     <property name="ringo" location="externals/ringojs-fork"/>
     <property name="app.proxy.geoserver" value=""/>
-    <property name="app.port" value="8080"/>
-    <condition property="git" value="git.cmd" else="git">
+    <property name="app.port" value="9090"/>
+    <condition property="git" value="git" else="git">
         <os family="windows"/>
     </condition>
 

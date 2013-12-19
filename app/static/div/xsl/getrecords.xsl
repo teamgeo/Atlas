@@ -42,7 +42,7 @@
         <csw:Constraint version="1.1.0">
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc" xmlns="http://www.opengis.net/ogc" xmlns:gml="http://www.opengis.net/gml">
             <ogc:And>
-            <ogc:PropertyIsLike escape="\" singleChar="_" wildCard="*" matchCase="false">
+            <ogc:PropertyIsLike escapeChar="\" singleChar="_" wildCard="*">
               <ogc:PropertyName>
 			  <xsl:value-of select="./propertyname"/>
 			  </ogc:PropertyName>

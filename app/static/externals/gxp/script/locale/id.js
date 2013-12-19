@@ -313,6 +313,7 @@ GeoExt.Lang.add("id", {
     },
     
     "gxp.WMSLayerPanel.prototype": {
+        attributionText: "Attribution",
         aboutText: "Tentang Program",
         titleText: "Judul",
         nameText: "Nama",
@@ -410,6 +411,19 @@ GeoExt.Lang.add("id", {
 
     "gxp.Viewer.prototype": {
         saveErrorText: "Trouble saving: "
+    },
+
+    "gxp.FeedSourceDialog.prototype": {
+        feedTypeText: "Sumber",
+        addPicasaText: "Picasa Foto",
+        addYouTubeText: "YouTube Video",
+        addRSSText: "GeoRSS Pakan lain",
+        addFeedText: "Tambah ke Peta",
+        addTitleText: "Judul",
+        keywordText: "Kata Kunci",
+        doneText: "Selesai",
+        titleText: "Tambah Blog",
+        maxResultsText: "Produk Max"
     }
 
 });

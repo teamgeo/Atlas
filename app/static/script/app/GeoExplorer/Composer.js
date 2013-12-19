@@ -75,7 +75,10 @@ GeoExplorer.Composer = Ext.extend(GeoExplorer, {
             }, {
                 ptype: "app_zoekcsw",
                 actionTarget: "layers.tbar",
-                search: {selectedSource: "http://geo.zaanstad.nl/geonetwork/srv/nl/csw"}
+                search: {
+                    selectedSource: "http://nationaalgeoregister.nl/geonetwork/srv/dut/csw",
+                    previewSource: "http://nationaalgeoregister.nl/geonetwork/srv/dut/view"
+                }
             }, {
                 ptype: "gxp_addlayers",
                 //showButtonText: true,
@@ -101,8 +104,6 @@ GeoExplorer.Composer = Ext.extend(GeoExplorer, {
                 actionTarget: {target: "paneltbar", index: 1}
             }, {
                 ptype: "gxp_wmsgetfeatureinfozaanatlas", toggleGroup: this.toggleGroup,
-                layerParams: ["CQL_FILTER"],
-                vendorParams: {buffer: 10},
                 actionTarget: {target: "paneltbar", index: 3}
             }, {
                 ptype: "gxp_measure", toggleGroup: this.toggleGroup,
@@ -131,7 +132,7 @@ GeoExplorer.Composer = Ext.extend(GeoExplorer, {
                 actionTarget: {target: "paneltbar", index: 0}
             }, {
                 ptype: "gxp_print",
-                customParams: {outputFilename: "ZaanAtlas-print"},
+                customParams: {outputFilename: "Atlas-print"},
                 printService: config.printService,
                 //includeLegend: true,
                 actionTarget: {target: "paneltbar", index: 1}

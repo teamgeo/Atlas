@@ -1,23 +1,9 @@
-/*
-This file is part of Ext JS 3.4
-
-Copyright (c) 2011-2013 Sencha Inc
-
-Contact:  http://www.sencha.com/contact
-
-GNU General Public License Usage
-This file may be used under the terms of the GNU General Public License version 3.0 as
-published by the Free Software Foundation and appearing in the file LICENSE included in the
-packaging of this file.
-
-Please review the following information to ensure the GNU General Public License version 3.0
-requirements will be met: http://www.gnu.org/copyleft/gpl.html.
-
-If you are unsure which license is appropriate for your use, please contact the sales department
-at http://www.sencha.com/contact.
-
-Build date: 2013-04-03 15:07:25
-*/
+/*!
+ * Ext JS Library 3.4.0
+ * Copyright(c) 2006-2011 Sencha Inc.
+ * licensing@sencha.com
+ * http://www.sencha.com/license
+ */
 .ext-el-mask {
     background-color: #ccc;
 }
@@ -25,12 +11,12 @@ Build date: 2013-04-03 15:07:25
 .ext-el-mask-msg {
     border-color:#999;
     background-color:#ddd;
-    background-image:url(../images/zaanstad/panel/white-top-bottom.gif);
+    background-image:url(../images/gray/panel/white-top-bottom.gif);
     background-position: 0 -1px;
 }
 .ext-el-mask-msg div {
     background-color: #eee;
-    border-color:#E5E5E5;
+    border-color:#d0d0d0;
     color:#222;
     font:normal 11px tahoma, arial, helvetica, sans-serif;
 }
@@ -96,30 +82,30 @@ Build date: 2013-04-03 15:07:25
     background-color: #ccc;
 }.x-tab-panel-header, .x-tab-panel-footer {
 	background-color: #eaeaea;
-	border-color:#E5E5E5;
+	border-color:#d0d0d0;
     overflow:hidden;
     zoom:1;
 }
 
 .x-tab-panel-header, .x-tab-panel-footer {
-	border-color:#E5E5E5;
+	border-color:#d0d0d0;
 }
 
 ul.x-tab-strip-top{
     background-color:#dbdbdb;
-	background-image: url(../images/zaanstad/tabs/tab-strip-bg.gif);
-	border-bottom-color:#E5E5E5;
+	background-image: url(../images/gray/tabs/tab-strip-bg.gif);
+	border-bottom-color:#d0d0d0;
 }
 
 ul.x-tab-strip-bottom{
     background-color:#dbdbdb;
-	background-image: url(../images/zaanstad/tabs/tab-strip-btm-bg.gif);
-	border-top-color:#E5E5E5;
+	background-image: url(../images/gray/tabs/tab-strip-btm-bg.gif);
+	border-top-color:#d0d0d0;
 }
 
 .x-tab-panel-header-plain .x-tab-strip-spacer,
 .x-tab-panel-footer-plain .x-tab-strip-spacer {
-    border-color:#E5E5E5;
+    border-color:#d0d0d0;
     background-color: #eaeaea;
 }
 
@@ -142,43 +128,43 @@ ul.x-tab-strip-bottom{
 }
 
 .x-tab-strip-top .x-tab-right, .x-tab-strip-top .x-tab-left, .x-tab-strip-top .x-tab-strip-inner{
-	background-image: url(../images/zaanstad/tabs/tabs-sprite.gif);
+	background-image: url(../images/gray/tabs/tabs-sprite.gif);
 }
 
 .x-tab-strip-bottom .x-tab-right {
-	background-image: url(../images/zaanstad/tabs/tab-btm-inactive-right-bg.gif);
+	background-image: url(../images/gray/tabs/tab-btm-inactive-right-bg.gif);
 }
 
 .x-tab-strip-bottom .x-tab-left {
-	background-image: url(../images/zaanstad/tabs/tab-btm-inactive-left-bg.gif);
+	background-image: url(../images/gray/tabs/tab-btm-inactive-left-bg.gif);
 }
 
 .x-tab-strip-bottom .x-tab-strip-over .x-tab-left {
-	background-image: url(../images/zaanstad/tabs/tab-btm-over-left-bg.gif);
+	background-image: url(../images/gray/tabs/tab-btm-over-left-bg.gif);
 }
 
 .x-tab-strip-bottom .x-tab-strip-over .x-tab-right {
-	background-image: url(../images/zaanstad/tabs/tab-btm-over-right-bg.gif);
+	background-image: url(../images/gray/tabs/tab-btm-over-right-bg.gif);
 }
 
 .x-tab-strip-bottom .x-tab-strip-active .x-tab-right {
-	background-image: url(../images/zaanstad/tabs/tab-btm-right-bg.gif);
+	background-image: url(../images/gray/tabs/tab-btm-right-bg.gif);
 }
 
 .x-tab-strip-bottom .x-tab-strip-active .x-tab-left {
-	background-image: url(../images/zaanstad/tabs/tab-btm-left-bg.gif);
+	background-image: url(../images/gray/tabs/tab-btm-left-bg.gif);
 }
 
 .x-tab-strip .x-tab-strip-closable a.x-tab-strip-close {
-	background-image:url(../images/zaanstad/tabs/tab-close.gif);
+	background-image:url(../images/gray/tabs/tab-close.gif);
 }
 
 .x-tab-strip .x-tab-strip-closable a.x-tab-strip-close:hover{
-	background-image:url(../images/zaanstad/tabs/tab-close.gif);
+	background-image:url(../images/gray/tabs/tab-close.gif);
 }
 
 .x-tab-panel-body {
-    border-color:#E5E5E5;
+    border-color:#d0d0d0;
     background-color:#fff;
 }
 
@@ -191,8 +177,8 @@ ul.x-tab-strip-bottom{
 }
 
 .x-tab-scroller-left {
-    background-image:url(../images/zaanstad/tabs/scroll-left.gif);
-    border-bottom-color:#E5E5E5;
+    background-image:url(../images/gray/tabs/scroll-left.gif);
+    border-bottom-color:#d0d0d0;
 }
 
 .x-tab-scroller-left-over {
@@ -208,12 +194,12 @@ ul.x-tab-strip-bottom{
 }
 
 .x-tab-scroller-right {
-    background-image:url(../images/zaanstad/tabs/scroll-right.gif);
-    border-bottom-color:#E5E5E5;
+    background-image:url(../images/gray/tabs/scroll-right.gif);
+    border-bottom-color:#d0d0d0;
 }
 
 .x-tab-panel-bbar .x-toolbar, .x-tab-panel-tbar .x-toolbar {
-    border-color:#E5E5E5;
+    border-color:#d0d0d0;
 }
 .x-form-field{
     font:normal 12px tahoma, arial, helvetica, sans-serif;
@@ -231,7 +217,7 @@ ul.x-tab-strip-bottom{
 }
 
 .x-form-check-group-label {
-    border-bottom: 1px solid #E5E5E5;
+    border-bottom: 1px solid #d0d0d0;
     color: #333;
 }
 
@@ -240,20 +226,20 @@ ul.x-tab-strip-bottom{
 }
 
 .x-form-field-wrap .x-form-trigger{
-    background-image:url(../images/zaanstad/form/trigger.gif);
+    background-image:url(../images/gray/form/trigger.gif);
     border-bottom-color:#b5b8c8;
 }
 
 .x-form-field-wrap .x-form-date-trigger{
-    background-image: url(../images/zaanstad/form/date-trigger.gif);
+    background-image: url(../images/gray/form/date-trigger.gif);
 }
 
 .x-form-field-wrap .x-form-clear-trigger{
-    background-image: url(../images/zaanstad/form/clear-trigger.gif);
+    background-image: url(../images/gray/form/clear-trigger.gif);
 }
 
 .x-form-field-wrap .x-form-search-trigger{
-    background-image: url(../images/zaanstad/form/search-trigger.gif);
+    background-image: url(../images/gray/form/search-trigger.gif);
 }
 
 .x-trigger-wrap-focus .x-form-trigger{
@@ -340,7 +326,7 @@ ul.x-tab-strip-bottom{
 }
 
 .x-btn-tl, .x-btn-tr, .x-btn-tc, .x-btn-ml, .x-btn-mr, .x-btn-mc, .x-btn-bl, .x-btn-br, .x-btn-bc{
-	background-image:url(../images/zaanstad/button/btn.gif);
+	background-image:url(../images/gray/button/btn.gif);
 }
 
 .x-btn-click .x-btn-text, .x-btn-menu-active .x-btn-text, .x-btn-pressed .x-btn-text{
@@ -360,7 +346,7 @@ ul.x-tab-strip-bottom{
 }
 
 .x-btn-over .x-btn-mc em.x-btn-split, .x-btn-click .x-btn-mc em.x-btn-split, .x-btn-menu-active .x-btn-mc em.x-btn-split, .x-btn-pressed .x-btn-mc em.x-btn-split {
-    background-image:url(../images/zaanstad/button/s-arrow-o.gif);
+    background-image:url(../images/gray/button/s-arrow-o.gif);
 }
 
 .x-btn-mc em.x-btn-arrow-bottom {
@@ -372,7 +358,7 @@ ul.x-tab-strip-bottom{
 }
 
 .x-btn-over .x-btn-mc em.x-btn-split-bottom, .x-btn-click .x-btn-mc em.x-btn-split-bottom, .x-btn-menu-active .x-btn-mc em.x-btn-split-bottom, .x-btn-pressed .x-btn-mc em.x-btn-split-bottom {
-    background-image:url(../images/zaanstad/button/s-arrow-bo.gif);
+    background-image:url(../images/gray/button/s-arrow-bo.gif);
 }
 
 .x-btn-group-header {
@@ -380,43 +366,43 @@ ul.x-tab-strip-bottom{
 }
 
 .x-btn-group-tc {
-	background-image: url(../images/zaanstad/button/group-tb.gif);
+	background-image: url(../images/gray/button/group-tb.gif);
 }
 
 .x-btn-group-tl {
-	background-image: url(../images/zaanstad/button/group-cs.gif);
+	background-image: url(../images/gray/button/group-cs.gif);
 }
 
 .x-btn-group-tr {
-	background-image: url(../images/zaanstad/button/group-cs.gif);
+	background-image: url(../images/gray/button/group-cs.gif);
 }
 
 .x-btn-group-bc {
-	background-image: url(../images/zaanstad/button/group-tb.gif);
+	background-image: url(../images/gray/button/group-tb.gif);
 }
 
 .x-btn-group-bl {
-	background-image: url(../images/zaanstad/button/group-cs.gif);
+	background-image: url(../images/gray/button/group-cs.gif);
 }
 
 .x-btn-group-br {
-	background-image: url(../images/zaanstad/button/group-cs.gif);
+	background-image: url(../images/gray/button/group-cs.gif);
 }
 
 .x-btn-group-ml {
-	background-image: url(../images/zaanstad/button/group-lr.gif);
+	background-image: url(../images/gray/button/group-lr.gif);
 }
 .x-btn-group-mr {
-	background-image: url(../images/zaanstad/button/group-lr.gif);
+	background-image: url(../images/gray/button/group-lr.gif);
 }
 
 .x-btn-group-notitle .x-btn-group-tc {
-	background-image: url(../images/zaanstad/button/group-tb.gif);
+	background-image: url(../images/gray/button/group-tb.gif);
 }
 .x-toolbar{
-	border-color:#E5E5E5;
+	border-color:#d0d0d0;
     background-color:#f0f0f0;
-    background-image:url(../images/zaanstad/toolbar/bg.gif);
+    background-image:url(../images/gray/toolbar/bg.gif);
 }
 
 .x-toolbar td,.x-toolbar span,.x-toolbar input,.x-toolbar div,.x-toolbar select,.x-toolbar label{
@@ -438,7 +424,7 @@ ul.x-tab-strip-bottom{
 .x-toolbar .x-btn-over .x-btn-mc em.x-btn-split, .x-toolbar .x-btn-click .x-btn-mc em.x-btn-split, 
 .x-toolbar .x-btn-menu-active .x-btn-mc em.x-btn-split, .x-toolbar .x-btn-pressed .x-btn-mc em.x-btn-split 
 {
-    background-image:url(../images/zaanstad/button/s-arrow-o.gif);
+    background-image:url(../images/gray/button/s-arrow-o.gif);
 }
 
 .x-toolbar .x-btn-mc em.x-btn-split-bottom {
@@ -448,7 +434,7 @@ ul.x-tab-strip-bottom{
 .x-toolbar .x-btn-over .x-btn-mc em.x-btn-split-bottom, .x-toolbar .x-btn-click .x-btn-mc em.x-btn-split-bottom, 
 .x-toolbar .x-btn-menu-active .x-btn-mc em.x-btn-split-bottom, .x-toolbar .x-btn-pressed .x-btn-mc em.x-btn-split-bottom 
 {
-    background-image:url(../images/zaanstad/button/s-arrow-bo.gif);
+    background-image:url(../images/gray/button/s-arrow-bo.gif);
 }
 
 .x-toolbar .xtb-sep {
@@ -456,23 +442,23 @@ ul.x-tab-strip-bottom{
 }
 
 .x-tbar-page-first{
-	background-image: url(../images/zaanstad/grid/page-first.gif) !important;
+	background-image: url(../images/gray/grid/page-first.gif) !important;
 }
 
 .x-tbar-loading{
-	background-image: url(../images/zaanstad/grid/refresh.gif) !important;
+	background-image: url(../images/gray/grid/refresh.gif) !important;
 }
 
 .x-tbar-page-last{
-	background-image: url(../images/zaanstad/grid/page-last.gif) !important;
+	background-image: url(../images/gray/grid/page-last.gif) !important;
 }
 
 .x-tbar-page-next{
-	background-image: url(../images/zaanstad/grid/page-next.gif) !important;
+	background-image: url(../images/gray/grid/page-next.gif) !important;
 }
 
 .x-tbar-page-prev{
-	background-image: url(../images/zaanstad/grid/page-prev.gif) !important;
+	background-image: url(../images/gray/grid/page-prev.gif) !important;
 }
 
 .x-item-disabled .x-tbar-loading{
@@ -500,7 +486,7 @@ ul.x-tab-strip-bottom{
 }
 
 .x-toolbar-more-icon {
-    background-image: url(../images/zaanstad/toolbar/more.gif) !important;
+    background-image: url(../images/gray/toolbar/more.gif) !important;
 }
 .x-resizable-handle {
 	background-color:#fff;
@@ -509,29 +495,29 @@ ul.x-tab-strip-bottom{
 .x-resizable-over .x-resizable-handle-east, .x-resizable-pinned .x-resizable-handle-east,
 .x-resizable-over .x-resizable-handle-west, .x-resizable-pinned .x-resizable-handle-west
 {
-    background-image:url(../images/zaanstad/sizer/e-handle.gif);
+    background-image:url(../images/gray/sizer/e-handle.gif);
 }
 
 .x-resizable-over .x-resizable-handle-south, .x-resizable-pinned .x-resizable-handle-south,
 .x-resizable-over .x-resizable-handle-north, .x-resizable-pinned .x-resizable-handle-north
 {
-    background-image:url(../images/zaanstad/sizer/s-handle.gif);
+    background-image:url(../images/gray/sizer/s-handle.gif);
 }
 
 .x-resizable-over .x-resizable-handle-north, .x-resizable-pinned .x-resizable-handle-north{
-    background-image:url(../images/zaanstad/sizer/s-handle.gif);
+    background-image:url(../images/gray/sizer/s-handle.gif);
 }
 .x-resizable-over .x-resizable-handle-southeast, .x-resizable-pinned .x-resizable-handle-southeast{
-    background-image:url(../images/zaanstad/sizer/se-handle.gif);
+    background-image:url(../images/gray/sizer/se-handle.gif);
 }
 .x-resizable-over .x-resizable-handle-northwest, .x-resizable-pinned .x-resizable-handle-northwest{
-    background-image:url(../images/zaanstad/sizer/nw-handle.gif);
+    background-image:url(../images/gray/sizer/nw-handle.gif);
 }
 .x-resizable-over .x-resizable-handle-northeast, .x-resizable-pinned .x-resizable-handle-northeast{
-    background-image:url(../images/zaanstad/sizer/ne-handle.gif);
+    background-image:url(../images/gray/sizer/ne-handle.gif);
 }
 .x-resizable-over .x-resizable-handle-southwest, .x-resizable-pinned .x-resizable-handle-southwest{
-    background-image:url(../images/zaanstad/sizer/sw-handle.gif);
+    background-image:url(../images/gray/sizer/sw-handle.gif);
 }
 .x-resizable-proxy{
     border-color:#565656;
@@ -544,7 +530,7 @@ ul.x-tab-strip-bottom{
 }
 
 .x-grid-panel .x-panel-mc .x-panel-body {
-    border-color:#E5E5E5;
+    border-color:#d0d0d0;
 }
 
 .x-grid3-row td, .x-grid3-summary-row td{
@@ -557,7 +543,7 @@ ul.x-tab-strip-bottom{
 
 .x-grid3-hd-row td {
     border-left-color:#eee;
-    border-right-color:#E5E5E5;
+    border-right-color:#d0d0d0;
 }
 
 .x-grid-row-loading {
@@ -590,11 +576,11 @@ ul.x-tab-strip-bottom{
 
 .x-grid3-header{
     background-color:#f9f9f9;
-	background-image:url(../images/zaanstad/grid/grid3-hrow2.gif);
+	background-image:url(../images/gray/grid/grid3-hrow2.gif);
 }
 
 .x-grid3-header-pop {
-    border-left-color:#E5E5E5;
+    border-left-color:#d0d0d0;
 }
 
 .x-grid3-header-pop-inner {
@@ -609,16 +595,16 @@ td.x-grid3-hd-over, td.sort-desc, td.sort-asc, td.x-grid3-hd-menu-open {
 
 td.x-grid3-hd-over .x-grid3-hd-inner, td.sort-desc .x-grid3-hd-inner, td.sort-asc .x-grid3-hd-inner, td.x-grid3-hd-menu-open .x-grid3-hd-inner {
     background-color:#f9f9f9;
-    background-image:url(../images/zaanstad/grid/grid3-hrow-over2.gif);
+    background-image:url(../images/gray/grid/grid3-hrow-over2.gif);
 
 }
 
 .sort-asc .x-grid3-sort-icon {
-	background-image: url(../images/zaanstad/grid/sort_asc.gif);
+	background-image: url(../images/gray/grid/sort_asc.gif);
 }
 
 .sort-desc .x-grid3-sort-icon {
-	background-image: url(../images/zaanstad/grid/sort_desc.gif);
+	background-image: url(../images/gray/grid/sort_desc.gif);
 }
 
 .x-grid3-cell-text, .x-grid3-hd-text {
@@ -635,16 +621,16 @@ td.x-grid3-hd-over .x-grid3-hd-inner, td.sort-desc .x-grid3-hd-inner, td.sort-as
 
 .x-dd-drag-proxy .x-grid3-hd-inner{
     background-color:#f9f9f9;
-	background-image:url(../images/zaanstad/grid/grid3-hrow-over2.gif);
+	background-image:url(../images/gray/grid/grid3-hrow-over2.gif);
 	border-color:#ACACAC;
 }
 
 .col-move-top{
-	background-image:url(../images/zaanstad/grid/col-move-top.gif);
+	background-image:url(../images/gray/grid/col-move-top.gif);
 }
 
 .col-move-bottom{
-	background-image:url(../images/zaanstad/grid/col-move-bottom.gif);
+	background-image:url(../images/gray/grid/col-move-bottom.gif);
 }
 
 .x-grid3-row-selected {
@@ -718,7 +704,7 @@ td.x-grid3-hd-over .x-grid3-hd-inner, td.sort-desc .x-grid3-hd-inner, td.sort-as
 
 .x-grid3-hd-btn {
     background-color:#f9f9f9;
-    background-image:url(../images/zaanstad/grid/grid3-hd-btn.gif);
+    background-image:url(../images/gray/grid/grid3-hd-btn.gif);
 }
 
 .x-grid3-body .x-grid3-td-expander {
@@ -726,7 +712,7 @@ td.x-grid3-hd-over .x-grid3-hd-inner, td.sort-desc .x-grid3-hd-inner, td.sort-as
 }
 
 .x-grid3-row-expander {
-    background-image:url(../images/zaanstad/grid/row-expand-sprite.gif);
+    background-image:url(../images/gray/grid/row-expand-sprite.gif);
 }
 
 .x-grid3-body .x-grid3-td-checker {
@@ -752,7 +738,7 @@ td.x-grid3-hd-over .x-grid3-hd-inner, td.sort-desc .x-grid3-hd-inner, td.sort-as
 .x-grid3-body .x-grid3-row-selected .x-grid3-td-numberer,
 .x-grid3-body .x-grid3-row-selected .x-grid3-td-checker,
 .x-grid3-body .x-grid3-row-selected .x-grid3-td-expander {
-	background-image:url(../images/zaanstad/grid/grid3-special-col-sel-bg.gif);
+	background-image:url(../images/gray/grid/grid3-special-col-sel-bg.gif);
 }
 
 .x-grid3-check-col {
@@ -768,17 +754,17 @@ td.x-grid3-hd-over .x-grid3-hd-inner, td.sort-desc .x-grid3-hd-inner, td.sort-as
 }
 
 .x-grid-group-hd {
-    border-bottom-color:#E5E5E5;
+    border-bottom-color:#d0d0d0;
 }
 
 .x-grid-group-hd div.x-grid-group-title {
-    background-image:url(../images/zaanstad/grid/group-collapse.gif);
+    background-image:url(../images/gray/grid/group-collapse.gif);
     color:#5F5F5F;
     font:bold 11px tahoma, arial, helvetica, sans-serif;
 }
 
 .x-grid-group-collapsed .x-grid-group-hd div.x-grid-group-title {
-    background-image:url(../images/zaanstad/grid/group-expand.gif);
+    background-image:url(../images/gray/grid/group-expand.gif);
 }
 
 .x-group-by-icon {
@@ -810,11 +796,11 @@ td.x-grid3-hd-over .x-grid3-hd-inner, td.sort-desc .x-grid3-hd-inner, td.sort-as
 	border-top-color:#B9B9B9;
 }
 .x-pivotgrid .x-grid3-header-offset table td {
-    background: url(../images/zaanstad/grid/grid3-hrow2.gif) repeat-x 50% 100%;
+    background: url(../images/gray/grid/grid3-hrow2.gif) repeat-x 50% 100%;
     border-left: 1px solid;
     border-right: 1px solid;
-    border-left-color: #E5E5E5;
-    border-right-color: #E5E5E5;
+    border-left-color: #D0D0D0;
+    border-right-color: #D0D0D0;
 }
 
 .x-pivotgrid .x-grid3-row-headers {
@@ -826,9 +812,9 @@ td.x-grid3-hd-over .x-grid3-hd-inner, td.sort-desc .x-grid3-hd-inner, td.sort-as
     border-left: 1px solid;
     border-right: 1px solid;
     border-left-color: #EEE;
-    border-right-color: #E5E5E5;
+    border-right-color: #D0D0D0;
     border-bottom: 1px solid;
-    border-bottom-color: #E5E5E5;
+    border-bottom-color: #D0D0D0;
     height: 18px;
 }
 .x-dd-drag-ghost{
@@ -900,11 +886,11 @@ td.x-grid3-hd-over .x-grid3-hd-inner, td.sort-desc .x-grid3-hd-inner, td.sort-as
 }
 
 .x-tree-lines .x-tree-elbow-end-plus{
-	background-image:url(../images/zaanstad/tree/elbow-end-plus.gif);
+	background-image:url(../images/gray/tree/elbow-end-plus.gif);
 }
 
 .x-tree-lines .x-tree-elbow-end-minus{
-	background-image:url(../images/zaanstad/tree/elbow-end-minus.gif);
+	background-image:url(../images/gray/tree/elbow-end-minus.gif);
 }
 
 .x-tree-lines .x-tree-elbow-line{
@@ -920,27 +906,27 @@ td.x-grid3-hd-over .x-grid3-hd-inner, td.sort-desc .x-grid3-hd-inner, td.sort-as
 }
 
 .x-tree-no-lines .x-tree-elbow-end-plus{
-	background-image:url(../images/zaanstad/tree/elbow-end-plus-nl.gif);
+	background-image:url(../images/gray/tree/elbow-end-plus-nl.gif);
 }
 
 .x-tree-no-lines .x-tree-elbow-end-minus{
-	background-image:url(../images/zaanstad/tree/elbow-end-minus-nl.gif);
+	background-image:url(../images/gray/tree/elbow-end-minus-nl.gif);
 }
 
 .x-tree-arrows .x-tree-elbow-plus{
-    background-image:url(../images/zaanstad/tree/arrows.gif);
+    background-image:url(../images/gray/tree/arrows.gif);
 }
 
 .x-tree-arrows .x-tree-elbow-minus{
-    background-image:url(../images/zaanstad/tree/arrows.gif);
+    background-image:url(../images/gray/tree/arrows.gif);
 }
 
 .x-tree-arrows .x-tree-elbow-end-plus{
-    background-image:url(../images/zaanstad/tree/arrows.gif);
+    background-image:url(../images/gray/tree/arrows.gif);
 }
 
 .x-tree-arrows .x-tree-elbow-end-minus{
-    background-image:url(../images/zaanstad/tree/arrows.gif);
+    background-image:url(../images/gray/tree/arrows.gif);
 }
 
 .x-tree-node{
@@ -1010,7 +996,7 @@ td.x-grid3-hd-over .x-grid3-hd-inner, td.sort-desc .x-grid3-hd-inner, td.sort-as
 }
 
 .x-date-middle,.x-date-left,.x-date-right {
-	background-image: url(../images/zaanstad/shared/hd-sprite.gif);
+	background-image: url(../images/gray/shared/hd-sprite.gif);
 	color:#fff;
 	font:bold 11px "sans serif", tahoma, verdana, helvetica;
 }
@@ -1020,20 +1006,20 @@ td.x-grid3-hd-over .x-grid3-hd-inner, td.sort-desc .x-grid3-hd-inner, td.sort-as
 }
 
 .x-date-middle .x-btn-mc em.x-btn-arrow {
-    background-image:url(../images/zaanstad/toolbar/btn-arrow-light.gif);
+    background-image:url(../images/gray/toolbar/btn-arrow-light.gif);
 }
 
 .x-date-right a {
-    background-image: url(../images/zaanstad/shared/right-btn.gif);
+    background-image: url(../images/gray/shared/right-btn.gif);
 }
 
 .x-date-left a{
-	background-image: url(../images/zaanstad/shared/left-btn.gif);
+	background-image: url(../images/gray/shared/left-btn.gif);
 }
 
 .x-date-inner th {
     background-color:#D8D8D8;
-    background-image: url(../images/zaanstad/panel/white-top-bottom.gif);
+    background-image: url(../images/gray/panel/white-top-bottom.gif);
 	border-bottom-color:#AFAFAF;
     font:normal 10px arial, helvetica,tahoma,sans-serif;
 	color:#595959;
@@ -1073,7 +1059,7 @@ td.x-grid3-hd-over .x-grid3-hd-inner, td.sort-desc .x-grid3-hd-inner, td.sort-as
 .x-date-bottom {
     border-top-color:#AFAFAF;
     background-color:#D8D8D8;
-    background:#D8D8D8 url(../images/zaanstad/panel/white-top-bottom.gif) 0 -2px;
+    background:#D8D8D8 url(../images/gray/panel/white-top-bottom.gif) 0 -2px;
 }
 
 .x-date-inner a:hover, .x-date-inner .x-date-disabled a:hover{
@@ -1112,7 +1098,7 @@ td.x-grid3-hd-over .x-grid3-hd-inner, td.sort-desc .x-grid3-hd-inner, td.sort-as
 
 .x-date-mp-btns {
     background-color:#D8D8D8;
-    background:#D8D8D8 url(../images/zaanstad/panel/white-top-bottom.gif) 0 -2px;
+    background:#D8D8D8 url(../images/gray/panel/white-top-bottom.gif) 0 -2px;
 }
 
 .x-date-mp-btns td {
@@ -1130,22 +1116,22 @@ td.x-date-mp-month a:hover,td.x-date-mp-year a:hover {
 
 td.x-date-mp-sel a {
     background-color:#D8D8D8;
-    background:#D8D8D8 url(../images/zaanstad/panel/white-top-bottom.gif) 0 -2px;
+    background:#D8D8D8 url(../images/gray/panel/white-top-bottom.gif) 0 -2px;
 	border-color:#DCDCDC;
 }
 
 .x-date-mp-ybtn a {
-    background-image:url(../images/zaanstad/panel/tool-sprites.gif);
+    background-image:url(../images/gray/panel/tool-sprites.gif);
 }
 
 td.x-date-mp-sep {
    border-right-color:#D7D7D7;
 }.x-tip .x-tip-close{
-	background-image: url(../images/zaanstad/qtip/close.gif);
+	background-image: url(../images/gray/qtip/close.gif);
 }
 
 .x-tip .x-tip-tc, .x-tip .x-tip-tl, .x-tip .x-tip-tr, .x-tip .x-tip-bc, .x-tip .x-tip-bl, .x-tip .x-tip-br, .x-tip .x-tip-ml, .x-tip .x-tip-mr {
-	background-image: url(../images/zaanstad/qtip/tip-sprite.gif);
+	background-image: url(../images/gray/qtip/tip-sprite.gif);
 }
 
 .x-tip .x-tip-mc {
@@ -1176,7 +1162,7 @@ td.x-date-mp-sep {
 }
 
 .x-tip-anchor {
-    background-image:url(../images/zaanstad/qtip/tip-anchor-sprite.gif);
+    background-image:url(../images/gray/qtip/tip-anchor-sprite.gif);
 }.x-menu {
     background-color:#f0f0f0;
 	background-image:url(../images/default/menu/menu.gif);
@@ -1195,7 +1181,7 @@ td.x-date-mp-sep {
 }
 
 .x-menu-item-arrow{
-	background-image:url(../images/zaanstad/menu/menu-parent.gif);
+	background-image:url(../images/gray/menu/menu-parent.gif);
 }
 
 .x-menu-sep {
@@ -1208,7 +1194,7 @@ a.x-menu-item {
 }
 
 .x-menu-item-active {
-    background-image: url(../images/zaanstad/menu/item-over.gif);
+    background-image: url(../images/gray/menu/item-over.gif);
 	background-color: #f1f1f1;
     border-color:#ACACAC;
 }
@@ -1226,7 +1212,7 @@ a.x-menu-item {
 }
 
 .x-menu-item-checked .x-menu-group-item .x-menu-item-icon{
-    background-image:url(../images/zaanstad/menu/group-checked.gif);
+    background-image:url(../images/gray/menu/group-checked.gif);
 }
 
 .x-menu-group-item .x-menu-item-icon{
@@ -1357,7 +1343,7 @@ a.x-menu-item {
 .x-combo-list-small {
     font:normal 11px tahoma, arial, helvetica, sans-serif;
 }.x-panel {
-    border-color: #E5E5E5;
+    border-color: #d0d0d0;
 }
 
 .x-panel-header {
@@ -1365,25 +1351,25 @@ a.x-menu-item {
 	font-weight:bold; 
     font-size: 11px;
     font-family: tahoma,arial,verdana,sans-serif;
-    border-color:#E5E5E5;
-    background-image: url(../images/zaanstad/panel/white-top-bottom.gif);
+    border-color:#d0d0d0;
+    background-image: url(../images/gray/panel/white-top-bottom.gif);
 }
 
 .x-panel-body {
-    border-color:#E5E5E5;
+    border-color:#d0d0d0;
     background-color:#fff;
 }
 
 .x-panel-bbar .x-toolbar, .x-panel-tbar .x-toolbar {
-    border-color:#E5E5E5;
+    border-color:#d0d0d0;
 }
 
 .x-panel-tbar-noheader .x-toolbar, .x-panel-mc .x-panel-tbar .x-toolbar {
-    border-top-color:#E5E5E5;
+    border-top-color:#d0d0d0;
 }
 
 .x-panel-body-noheader, .x-panel-mc .x-panel-body {
-    border-top-color:#E5E5E5;
+    border-top-color:#d0d0d0;
 }
 
 .x-panel-tl .x-panel-header {
@@ -1392,16 +1378,16 @@ a.x-menu-item {
 }
 
 .x-panel-tc {
-	background-image: url(../images/zaanstad/panel/top-bottom.gif);
+	background-image: url(../images/gray/panel/top-bottom.gif);
 }
 
 .x-panel-tl, .x-panel-tr, .x-panel-bl,  .x-panel-br{
-	background-image: url(../images/zaanstad/panel/corners-sprite.gif);
-    border-bottom-color:#E5E5E5;
+	background-image: url(../images/gray/panel/corners-sprite.gif);
+    border-bottom-color:#d0d0d0;
 }
 
 .x-panel-bc {
-	background-image: url(../images/zaanstad/panel/top-bottom.gif);
+	background-image: url(../images/gray/panel/top-bottom.gif);
 }
 
 .x-panel-mc {
@@ -1411,15 +1397,15 @@ a.x-menu-item {
 
 .x-panel-ml {
 	background-color: #fff;
-    background-image:url(../images/zaanstad/panel/left-right.gif);
+    background-image:url(../images/gray/panel/left-right.gif);
 }
 
 .x-panel-mr {
-	background-image: url(../images/zaanstad/panel/left-right.gif);
+	background-image: url(../images/gray/panel/left-right.gif);
 }
 
 .x-tool {
-    background-image:url(../images/zaanstad/panel/tool-sprites.gif);
+    background-image:url(../images/gray/panel/tool-sprites.gif);
 }
 
 .x-panel-ghost {
@@ -1427,11 +1413,11 @@ a.x-menu-item {
 }
 
 .x-panel-ghost ul {
-    border-color:#E5E5E5;
+    border-color:#d0d0d0;
 }
 
 .x-panel-dd-spacer {
-    border-color:#E5E5E5;
+    border-color:#d0d0d0;
 }
 
 .x-panel-fbar td,.x-panel-fbar span,.x-panel-fbar input,.x-panel-fbar div,.x-panel-fbar select,.x-panel-fbar label{
@@ -1439,7 +1425,7 @@ a.x-menu-item {
 }
 .x-window-proxy {
     background-color:#fcfcfc;
-    border-color:#E5E5E5;
+    border-color:#d0d0d0;
 }
 
 .x-window-tl .x-window-header {
@@ -1448,41 +1434,41 @@ a.x-menu-item {
 }
 
 .x-window-tc {
-	background-image: url(../images/zaanstad/window/top-bottom.png);
+	background-image: url(../images/gray/window/top-bottom.png);
 }
 
 .x-window-tl {
-	background-image: url(../images/zaanstad/window/left-corners.png);
+	background-image: url(../images/gray/window/left-corners.png);
 }
 
 .x-window-tr {
-	background-image: url(../images/zaanstad/window/right-corners.png);
+	background-image: url(../images/gray/window/right-corners.png);
 }
 
 .x-window-bc {
-	background-image: url(../images/zaanstad/window/top-bottom.png);
+	background-image: url(../images/gray/window/top-bottom.png);
 }
 
 .x-window-bl {
-	background-image: url(../images/zaanstad/window/left-corners.png);
+	background-image: url(../images/gray/window/left-corners.png);
 }
 
 .x-window-br {
-	background-image: url(../images/zaanstad/window/right-corners.png);
+	background-image: url(../images/gray/window/right-corners.png);
 }
 
 .x-window-mc {
-    border-color:#E5E5E5;
+    border-color:#d0d0d0;
     font: normal 11px tahoma,arial,helvetica,sans-serif;
     background-color:#e8e8e8;
 }
 
 .x-window-ml {
-	background-image: url(../images/zaanstad/window/left-right.png);
+	background-image: url(../images/gray/window/left-right.png);
 }
 
 .x-window-mr {
-	background-image: url(../images/zaanstad/window/left-right.png);
+	background-image: url(../images/gray/window/left-right.png);
 }
 
 .x-window-maximized .x-window-tc {
@@ -1490,15 +1476,15 @@ a.x-menu-item {
 }
 
 .x-window-bbar .x-toolbar {
-    border-top-color:#E5E5E5;
+    border-top-color:#d0d0d0;
 }
 
 .x-panel-ghost .x-window-tl {
-    border-bottom-color:#E5E5E5;
+    border-bottom-color:#d0d0d0;
 }
 
 .x-panel-collapsed .x-window-tl {
-    border-bottom-color:#E5E5E5;
+    border-bottom-color:#d0d0d0;
 }
 
 .x-dlg-mask{
@@ -1507,11 +1493,11 @@ a.x-menu-item {
 
 .x-window-plain .x-window-mc {
     background-color: #E8E8E8;
-    border-color: #E5E5E5 #EEEEEE #EEEEEE #E5E5E5;
+    border-color: #D0D0D0 #EEEEEE #EEEEEE #D0D0D0;
 }
 
 .x-window-plain .x-window-body {
-    border-color: #EEEEEE #E5E5E5 #E5E5E5 #EEEEEE;
+    border-color: #EEEEEE #D0D0D0 #D0D0D0 #EEEEEE;
 }
 
 body.x-body-masked .x-window-plain .x-window-mc {
@@ -1525,23 +1511,23 @@ body.x-body-masked .x-window-plain .x-window-mc {
     background-image:url(../images/default/editor/tb-sprite.gif);
 }
 .x-panel-noborder .x-panel-header-noborder {
-    border-bottom-color:#E5E5E5;
+    border-bottom-color:#d0d0d0;
 }
 
 .x-panel-noborder .x-panel-tbar-noborder .x-toolbar {
-    border-bottom-color:#E5E5E5;
+    border-bottom-color:#d0d0d0;
 }
 
 .x-panel-noborder .x-panel-bbar-noborder .x-toolbar {
-    border-top-color:#E5E5E5;
+    border-top-color:#d0d0d0;
 }
 
 .x-tab-panel-bbar-noborder .x-toolbar {
-    border-top-color:#E5E5E5;
+    border-top-color:#d0d0d0;
 }
 
 .x-tab-panel-tbar-noborder .x-toolbar {
-    border-bottom-color:#E5E5E5;
+    border-bottom-color:#d0d0d0;
 }
 
 .x-border-layout-ct {
@@ -1554,12 +1540,12 @@ body.x-body-masked .x-window-plain .x-window-mc {
 .x-accordion-hd {
 	color:#222;
     font-weight:normal;
-    background-image: url(../images/zaanstad/panel/light-hd.gif);
+    background-image: url(../images/gray/panel/light-hd.gif);
 }
 
 .x-layout-collapsed{
     background-color:#dfdfdf;
-	border-color:#E5E5E5;
+	border-color:#d0d0d0;
 }
 
 .x-layout-collapsed-over{
@@ -1600,12 +1586,12 @@ body.x-body-masked .x-window-plain .x-window-mc {
 
 .x-progress-inner {
     background-color:#E7E7E7;
-    background-image:url(../images/zaanstad/qtip/bg.gif);
+    background-image:url(../images/gray/qtip/bg.gif);
 }
 
 .x-progress-bar {
     background-color:#BCBCBC;
-    background-image:url(../images/zaanstad/progress/progress-bg.gif);
+    background-image:url(../images/gray/progress/progress-bg.gif);
     border-top-color:#E2E2E2;
     border-bottom-color:#A4A4A4;
     border-right-color:#A4A4A4;
@@ -1622,7 +1608,7 @@ body.x-body-masked .x-window-plain .x-window-mc {
 }
 .x-list-header{
     background-color:#f9f9f9;
-	background-image:url(../images/zaanstad/grid/grid3-hrow2.gif);
+	background-image:url(../images/gray/grid/grid3-hrow2.gif);
 }
 
 .x-list-header-inner div em {
@@ -1648,15 +1634,15 @@ body.x-body-masked .x-window-plain .x-window-mc {
 }
 
 .x-list-header-inner em.sort-asc, .x-list-header-inner em.sort-desc {
-    background-image:url(../images/zaanstad/grid/sort-hd.gif);
-    border-color: #E5E5E5;
+    background-image:url(../images/gray/grid/sort-hd.gif);
+    border-color: #d0d0d0;
 }
 .x-slider-horz, .x-slider-horz .x-slider-end, .x-slider-horz .x-slider-inner {
     background-image:url(../images/default/slider/slider-bg.png);
 }
 
 .x-slider-horz .x-slider-thumb {
-    background-image:url(../images/zaanstad/slider/slider-thumb.png);
+    background-image:url(../images/gray/slider/slider-thumb.png);
 }
 
 .x-slider-vert, .x-slider-vert .x-slider-end, .x-slider-vert .x-slider-inner {
@@ -1664,7 +1650,7 @@ body.x-body-masked .x-window-plain .x-window-mc {
 }
 
 .x-slider-vert .x-slider-thumb {
-    background-image:url(../images/zaanstad/slider/slider-v-thumb.png);
+    background-image:url(../images/gray/slider/slider-v-thumb.png);
 }
 .x-window-dlg .ext-mb-text,
 .x-window-dlg .x-window-header-text {
@@ -1680,17 +1666,17 @@ body.x-body-masked .x-window-plain .x-window-mc {
 }
 
 .x-window-dlg .ext-mb-info {
-    background-image:url(../images/zaanstad/window/icon-info.gif);
+    background-image:url(../images/gray/window/icon-info.gif);
 }
 
 .x-window-dlg .ext-mb-warning {
-    background-image:url(../images/zaanstad/window/icon-warning.gif);
+    background-image:url(../images/gray/window/icon-warning.gif);
 }
 
 .x-window-dlg .ext-mb-question {
-    background-image:url(../images/zaanstad/window/icon-question.gif);
+    background-image:url(../images/gray/window/icon-question.gif);
 }
 
 .x-window-dlg .ext-mb-error {
-    background-image:url(../images/zaanstad/window/icon-error.gif);
+    background-image:url(../images/gray/window/icon-error.gif);
 }

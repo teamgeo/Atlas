@@ -29,15 +29,15 @@ gxp.plugins.Geocoder = Ext.extend(gxp.plugins.Tool, {
     ptype: "app_geocoder",
     
 	outputConfig: {
-		url: "/geoserver/wfs",
-		featureType: "bag_adressen_alles",
-		featurePrefix: "geo",
-    srsName: "EPSG:28992",
-    maxFeatures: 70,
-    outputFormat: "JSON",
-		fieldName: "adres",
-		geometryName: "geom",
-		emptyText: "Zoek een adres ...",
+		url: "http://gng-ap713/geoserver/wfs",
+		featureType: "atlas_geocoder",
+		featurePrefix: "nieuwegein",
+		srsName: "EPSG:28992",
+        maxFeatures: 70,
+        outputFormat: "JSON",
+		fieldName: "ADRES",
+		geometryName: "GEOM",
+		emptyText: "Type een adres ...",
 		listEmptyText: "- niets gevonden -"
 	},
 	
@@ -57,7 +57,7 @@ gxp.plugins.Geocoder = Ext.extend(gxp.plugins.Tool, {
      * ``Integer`` Zoom level to zoom to when an address is selected.
      * Defaults to 16.
      */
-    zoom: 8,
+    zoom: 14,
 
     init: function(target) {
 

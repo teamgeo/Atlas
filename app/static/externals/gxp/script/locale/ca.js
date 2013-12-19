@@ -312,6 +312,7 @@ GeoExt.Lang.add("ca", {
     },
     
     "gxp.WMSLayerPanel.prototype": {
+        attributionText: "Attribution",
         aboutText: "Quant a",
         titleText: "Títol",
         nameText: "Nom",
@@ -409,6 +410,19 @@ GeoExt.Lang.add("ca", {
 
     "gxp.Viewer.prototype": {
         saveErrorText: "Problemes desant: "
+    },
+
+    "gxp.FeedSourceDialog.prototype": {
+        feedTypeText: "Font",
+        addPicasaText: "Picasa fotos",
+        addYouTubeText: "YouTube Videos",
+        addRSSText: "Feed GeoRSS Un altre",
+        addFeedText: "Afegeix a Mapa",
+        addTitleText: "Títol",
+        keywordText: "Paraula clau",
+        doneText: "Fet",
+        titleText: "Afegir Feeds",
+        maxResultsText: "Productes Max"
     }
 
 });

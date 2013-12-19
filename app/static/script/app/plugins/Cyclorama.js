@@ -57,6 +57,8 @@ gxp.plugins.Cyclorama = Ext.extend(gxp.plugins.Tool, {
     popup: null,
 
     symboollayer: null,
+	
+	viewer_api: "https://globespotter.cyclomedia.com/v27/api/viewer_api.swf",
 
     firstClick: true,
      
@@ -125,11 +127,11 @@ gxp.plugins.Cyclorama = Ext.extend(gxp.plugins.Tool, {
 
 	openPopup: function() {
 
-		var viewer_api = this.api;
+		var viewer_api = "https://globespotter.cyclomedia.com/v27/api/viewer_api.swf" //https://globespotter.cyclomedia.com/v28/viewer/globespotter.swf
 
 		if (Ext.isIE) {
 			var html = "<object classid='clsid:D27CDB6E-AE6D-11cf-96B8-444553540000' width='100%' height='100%' id='japi'>"+
-	        "<param name='movie' value=" + viewer_api + " />"+
+	        "<param name='movie' value=" + this.viewer_api + " />"+
 	        "<param name='quality' value='high' />"+
 	        "<param name='bgcolor' value='#888888' />"+
 	        "<param name='wmode' value='opaque' />"+
@@ -138,7 +140,7 @@ gxp.plugins.Cyclorama = Ext.extend(gxp.plugins.Tool, {
 	        "<!-- Flash message from CycloMedia. --><b>Flash installation</b><br/>In order to use GlobeSpotter, Adobe Flash Player version 10 or higher is required. The player can be installed from the Adobe website. On the website you can find the installation instructions, but for your convenience they have also been listed below:<p/><br><b>Flash player installation instructions</b><ul><li>- You can only install Flash Player if you have administrative access.</li><li>- If you do not have administrative access please contact the IT department or the systemsadministrator for the installation of Flash Player.</li><li>- Before you start downloading Adobe Flash Player, it is recommended that you close all otheropen browser windows.</li><li>- Go to the download site of Adobe Flash Player: <a href='http://get.adobe.com/flashplayer/'><img src='http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif' alt='Get Adobe Flash Player' /></a></li><li>- Deselect additional downloads, as they will not be necessary for the functioning of GlobeSpotter.</li><li>- Click 'Agree and install now'</li><li>- After this you will get a popup with the question: Do you want to install this software?? Click on 'Install'</li><li>- Wait until Adobe Flash Player has finished installing</li><li>- Once done it is highly recommended you restart your browser program</li><li>- Now you can return to the GlobeSpotter startup page and begin using the application</li></ul>- For support please contact:<br/><a href='mailto:support@cyclomedia.nl'>support@cyclomedia.nl</a>"+
 	    	"</object>"
 	    } else {
-	    	var html = "<object type='application/x-shockwave-flash' data=" + viewer_api + " width='100%' height='100%' id='japi'>"+
+	    	var html = "<object type='application/x-shockwave-flash' data=" + this.viewer_api + " width='100%' height='100%' id='japi'>"+
 	        "<param name='quality' value='high' />"+
 	        "<param name='bgcolor' value='#888888' />"+
 	        "<param name='wmode' value='opaque' />"+

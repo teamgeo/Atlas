@@ -74,6 +74,13 @@ GeoExt.WMSLegend = Ext.extend(GeoExt.LayerLegend, {
      */
     baseParams: null,
 
+    /** api: config[itemXType]
+     *  ``String``
+     *  The xtype to be used for each item of this legend. Defaults to
+     *  `gx_legendimage`.
+     */
+    itemXType: "gx_legendimage",
+    
     /** private: method[initComponent]
      *  Initializes the WMS legend. For group layers it will create multiple
      *  image box components.
@@ -116,6 +123,7 @@ GeoExt.WMSLegend = Ext.extend(GeoExt.LayerLegend, {
                              [layer.params.STYLES].join(",").split(",");
         var idx = layerNames.indexOf(layerName);
         var styleName = styleNames && styleNames[idx];
+
         // check if we have a legend URL in the record's
         // "styles" data field
         if(styles && styles.length > 0) {
@@ -124,9 +132,21 @@ GeoExt.WMSLegend = Ext.extend(GeoExt.LayerLegend, {
                     url = (s.name == styleName && s.legend) && s.legend.href;
                     return !url;
                 });
-            } else if(this.defaultStyleIsFirst === true && !styleNames &&
-                      !layer.params.SLD && !layer.params.SLD_BODY) {
-                url = styles[0].legend && styles[0].legend.href;
+            } else {
+                if(!styleNames && !layer.params.SLD && !layer.params.SLD_BODY) {
+                    // let's search for a style with a 'layerName' attribute
+                    Ext.each(styles, function(s) {
+                        url = (s.layerName == layerName && s.legend) &&
+                                                                s.legend.href;
+                        return !url;
+                    });
+                    if (!url && this.defaultStyleIsFirst === true) {
+                        url = styles[0].legend && styles[0].legend.href;
+                    }
+                }
+            }
+            if (url) {
+                url = decodeURIComponent(url);
             }
         }
         if(!url) {
@@ -149,7 +169,12 @@ GeoExt.WMSLegend = Ext.extend(GeoExt.LayerLegend, {
             // update legend after a forced layer redraw
             params._OLSALT = layer.params._OLSALT;
         }
-        url = Ext.urlAppend(url, Ext.urlEncode(params));
+        var appendParams = Ext.urlEncode(params);
+        var formatRegEx = /([&\?]?)format=[^&]*&?/i;
+        if (formatRegEx.test(appendParams) && formatRegEx.test(url)) {
+            url = url.replace(formatRegEx, '$1');
+        }
+        url = OpenLayers.Util.urlAppend(url, appendParams);
         if (url.toLowerCase().indexOf("request=getlegendgraphic") != -1) {
             if (url.toLowerCase().indexOf("format=") == -1) {
                 url = Ext.urlAppend(url, "FORMAT=image%2Fgif");
@@ -211,7 +236,7 @@ GeoExt.WMSLegend = Ext.extend(GeoExt.LayerLegend, {
             layerName = layerNames[i];
             if(!this.items || !this.getComponent(layerName)) {
                 this.add({
-                    xtype: "gx_legendimage",
+                    xtype: this.itemXType,
                     url: this.getLegendUrl(layerName, layerNames),
                     itemId: layerName
                 });

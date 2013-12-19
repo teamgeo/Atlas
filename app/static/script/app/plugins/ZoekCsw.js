@@ -74,6 +74,7 @@ gxp.plugins.ZoekCsw = Ext.extend(gxp.plugins.Tool, {
      *  The currently selected layer source.
      */
     selectedSource: null,
+    previewSource: null,
 
     /** api: method[addActions]
      */
@@ -113,6 +114,7 @@ gxp.plugins.ZoekCsw = Ext.extend(gxp.plugins.Tool, {
     initCatalogDialog: function () {
         target = this.target;
         cswhost = this.initialConfig.search.selectedSource;
+        cswpreview = this.initialConfig.search.previewSource;
 
         function initNow() {
             this.defaultschema = "http://www.isotc211.org/2005/gmd";
@@ -249,7 +251,7 @@ gxp.plugins.ZoekCsw = Ext.extend(gxp.plugins.Tool, {
 
             var ajaxRequest = Ext.Ajax.request({
                 method: "GET",
-                url: "http://geo.zaanstad.nl/geonetwork/srv/nl/metadata.show.embedded?uuid=" + id + "&currTab=simple",
+                url: this.cswpreview + "?uuid=" + id + "&currTab=view-simple&hl=dut", // + "&currTab=simple",
                 async: true,
                 headers: {
                     "Content-Type": "application/html"
@@ -449,27 +451,19 @@ gxp.plugins.ZoekCsw = Ext.extend(gxp.plugins.Tool, {
                 singletile: false
             };
 
-            if (url.toLowerCase().match("geo.zaanstad.nl/geowebcache") != null) {
-                obj.key = "tiles";
-                obj.background = true;
-            };
-            if (url.toLowerCase().match("map16z/geowebcache") != null) {
-                obj.key = "intratiles";
-                obj.background = true;
-            };
-            if (url.toLowerCase().match("geo.zaanstad.nl/geoserver") != null) {
-                obj.key = "publiek";
-                obj.background = false;
-            };
-            if (url.toLowerCase().match("map16z/geoserver") != null) {
-                obj.key = "intranet";
-                obj.background = false;
-            };
-
-            if (url.toLowerCase().match("singletile=true") != null) {
-                obj.singletile = true;
-            };
-
+			for (var key in this.target.sources) {
+			   if (this.target.sources.hasOwnProperty(key)) {
+				  var source= this.target.sources[key];
+				  var sourceurl = String(source.url).toLowerCase();
+					if (url.toLowerCase().match(sourceurl)) {
+						obj.key = source.id;
+						obj.background = false;
+						if (url.toLowerCase().match("singletile=true") != null) {
+							obj.singletile = true;
+						};
+					}
+			   }
+			}
             return obj;
         };
 
@@ -655,8 +649,7 @@ gxp.plugins.ZoekCsw = Ext.extend(gxp.plugins.Tool, {
             }, {
                 id: 'tb_listtext',
                 xtype: 'tbtext',
-                text: '',
-                style: 'color:#00A5C7;'
+                text: ''
             }]
         });
 
